@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Your Personal Website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="content">
+
+        <header class="container">
+            <div class="row justify-content-center name">Your Name Here</div>
+            <div class="row justify-content-center title">Web Developer</div>
+            <div class="row justify-content-center">
+                <img src="image/business.jpg" style="height:300px" ; />
+            </div>
+
+            <div id="aboutMe">
+                <p style="color:darkblue;">
+                    I am a motivated web development professional who recently graduated from Bethel School of Technology. 
+                    Learned and applied full stack development skills in Javascript, SQL, HTML and CSS. Worked with 
+                    various frameworks for these languages including Rails, Sinatra, JQuery, Node, and Angular.
+                    Highly results-oriented and energetic with unsurpassed interpersonal and communication strengths. Productive, 
+                    hardworking and known for consistent stellar performance against target goals and customer service expectations.
+                    My on-going passion is to build innovative applications in our growing tech world.
+                </p>
+            </div>
+
+
+            <div class="container">
+
+                <div class="row justify-content-center">
+
+                    <div class="row">
+                        <a href="https://github.com/">
+                            <img title="GitHub" src="image\gitHub.png" style="width:42px;height:42px;border:0;">
+                        </a>
+                    </div>
+
+                    <div class="row">
+                        <a href="https://www.linkedin.com">
+                            <img title="Linkedin" src="image/LinkedIn.png" style="width:42px;height:42px;border:0px;">
+                        </a>
+                    </div>
+
+                    <div class="row">
+                        <a href="https://www.facebook.com">
+                            <img title="Facebook" src="image/facebook.png" style="width:42px;height:42px;border:0;">
+                        </a>
+                    </div>
+
+                    <div class="row">
+                        <a href="https://www.instagram.com">
+                            <img title="Instagram" src="image/instagram.jfif"
+                                style="width:42px;height:42px;border:0;" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+    <div class="container-fluid bg-3 text-center">
+
+    </div>
+
+    <div class="row justify-content-center" id="myGitHubRepo" style="background-color: blue;">
+        <button><b> Enter USERNAME below to view Github Repos </b></button>
+    </div>
+    <div class="container-fluid bg-4 text-center" id="my-github-projects" /> GitHub username:
+    <input type="text" id="username" />
+    <button onclick="loadRepos()">Load Repos</button>
+    <ul id="repos">
+        <li>
+            <a href="{repo.html_url}">
+
+            </a>
+        </li>
+    </ul>
+</div>
+<footer class="container-fluid bg-4 text-center">
+</footer>
+
+
+    <div id="footer">Contact Information<img src="image/email.jfif"
+            style="width:22px;height:22px;border:0;">youthedeveloper@email.com</img>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
